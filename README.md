@@ -5,10 +5,6 @@ This project is a Flask-based web application that predicts the price of a lapto
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Cat_Laptop_-_Idil_Keysan_-_Wikimedia_Giphy_stickers_2019.gif" alt="Laptop Price Estimator Demo" width="600" />
 </p>
 
-# Laptop Price Estimator
-
-This project is a Flask-based web application that predicts the price of a laptop based on various hardware specifications. The application uses a pre-trained AdaBoost model to estimate the price.
-
 ## Project Structure
 
 ```plaintext
