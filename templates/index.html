@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Price Estimator</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>ESTIMATE THE PRICE</h1>
+            <form id="price-form">
+                <label for="Manufacturer">Manufacturer</label>
+                <select id="Manufacturer" name="Manufacturer">
+                    <option value="" disabled selected>Select Manufacturer</option>
+                    <option value="1">Dell</option>
+                    <option value="2">HP</option>
+                    <option value="3">ASUS</option>
+                    <option value="4">Lenovo</option>
+                </select>
+
+                <label for="IntelCore">Intel Core (i-)</label>
+                <select id="IntelCore" name="IntelCore">
+                    <option value="" disabled selected>Select Intel Core</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                </select>
+
+                <label for="IntelCoreGen">Intel Core Gen</label>
+                <select id="IntelCoreGen" name="IntelCoreGen">
+                    <option value="" disabled selected>Select Intel Core Gen</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <label for="Ram">RAM (GB)</label>
+                <select id="Ram" name="Ram">
+                    <option value="" disabled selected>Select RAM</option>
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                    <option value="16">16</option>
+                    <option value="32">32</option>
+                </select>
+
+                <label for="HDD">HDD (GB)</label>
+                <select id="HDD" name="HDD">
+                    <option value="" disabled selected>Select HDD</option>
+                    <option value="256">256</option>
+                    <option value="500">500</option>
+                    <option value="512">512</option>
+                    <option value="1000">1000</option>
+                </select>
+
+                <label for="SSD">SSD (GB)</label>
+                <select id="SSD" name="SSD">
+                    <option value="" disabled selected>Select SSD</option>
+                    <option value="0">0</option>
+                    <option value="16">16</option>
+                    <option value="256">256</option>
+                    <option value="512">512</option>
+                </select>
+
+                <label for="Graphics">Graphics (GB)</label>
+                <select id="Graphics" name="Graphics">
+                    <option value="" disabled selected>Select Graphics</option>
+                    <option value="0">0</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                </select>
+
+                <label for="ScreenSize">Screen Size (inch)</label>
+                <select id="ScreenSize" name="ScreenSize">
+                    <option value="" disabled selected>Select Screen Size</option>
+                    <option value="14.0">14.0</option>
+                    <option value="15.0">15.0</option>
+                    <option value="17.0">17.0</option>
+                </select>
+
+                <button type="button" id="predict-button">Predict Price</button>
+                <p id="result"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
